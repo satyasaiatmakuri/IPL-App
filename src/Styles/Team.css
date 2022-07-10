@@ -1,0 +1,25 @@
+.card{
+    padding: 5px;
+}
+.expand-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expand-btn{
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.hidden-cont{
+    display: none;
+}
+
+#open,  #downarrowopen, #uparrowclose{
+    display: block;
+}
+#close,  #downarrowclose, #uparrowopen{
+    display: none;
+}
